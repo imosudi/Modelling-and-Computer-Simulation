@@ -1,6 +1,6 @@
 # 1. Mathematical & Statistical Modelling
 
-## 1.1 Scilab (MATLAB Alternative)
+## 1.1 Scilab
 
 ### Prerequisites
 * **Operating Systems**: 
