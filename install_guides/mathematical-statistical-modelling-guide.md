@@ -46,16 +46,7 @@
 #### Linux Installation
 1. Visit https://www.scilab.org
 2. Download the Linux package appropriate for your distribution (.tar.gz or specific package like .deb for Debian/Ubuntu or .rpm for Fedora/RHEL)
-3. For .deb packages (Ubuntu/Debian):
-   ```bash
-   sudo dpkg -i scilab-X.X.X.x86_64.deb
-   sudo apt-get install -f  # Resolves dependencies if needed
-   ```
-4. For .rpm packages (Fedora/RHEL):
-   ```bash
-   sudo rpm -i scilab-X.X.X.x86_64.rpm
-   ```
-5. For generic tar.gz:
+3. For generic tar.gz:
    ```bash
    tar -xzf scilab-X.X.X.bin.linux-x86_64.tar.gz
    cd scilab-X.X.X
