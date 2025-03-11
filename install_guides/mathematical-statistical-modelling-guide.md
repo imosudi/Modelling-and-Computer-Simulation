@@ -55,12 +55,12 @@
 
 ### Key Features
 - **Programming Environment**: Provides a high-level numerical programming environment with dedicated programming language
-- **Visualization**: 2D/3D plotting capabilities for data visualization
+- **Visualisation**: 2D/3D plotting capabilities for data visualisation
 - **Matrix Operations**: Efficient handling of matrices, the fundamental data objects in Scilab
 - **Mathematical Functions**: Comprehensive library of mathematical functions
 - **Control System Design & Analysis**: Robust tools for control systems engineering
 - **Signal Processing**: Functions for filtering, FFT, and signal analysis
-- **Optimization**: Tools for linear, nonlinear, and global optimization problems
+- **Optimisation**: Tools for linear, nonlinear, and global optimisation problems
 - **Statistics**: Statistical analysis and data processing capabilities
 - **Xcos**: Block diagram modeler and simulator for dynamic systems (similar to Simulink)
 - **Toolboxes**: Various domain-specific toolboxes for extended functionality
@@ -159,11 +159,11 @@ After installation, try this simple example to verify Scilab is working correctl
 - **GUI Interface**: Modern graphical user interface with code editor
 - **MATLAB Compatibility**: High degree of compatibility with MATLAB syntax
 - **Numerical Computation**: Powerful numerical methods for computational mathematics
-- **Data Visualization**: Extensive 2D/3D plotting capabilities
+- **Data Visualisation**: Extensive 2D/3D plotting capabilities
 - **Matrix Manipulation**: Efficient operations on matrices and vectors
 - **Differential Equations**: Solvers for ordinary and partial differential equations
 - **Linear Algebra**: Comprehensive linear algebra operations
-- **Statistics & Optimization**: Built-in statistical and optimization functions
+- **Statistics & Optimisation**: Built-in statistical and optimisation functions
 - **Extensibility**: Support for user-defined functions and packages
 
 ### Practical Applications
@@ -281,7 +281,7 @@ After installation, verify Octave is working correctly with this example:
 
 #### ggplot2
 - **Grammar of Graphics**: Implementation of the layered grammar of graphics
-- **Declarative Syntax**: Intuitive approach to creating complex visualizations
+- **Declarative Syntax**: Intuitive approach to creating complex visualisations
 - **Aesthetic Mappings**: Flexible mapping of data variables to visual properties
 - **Statistical Transformations**: Built-in statistical summaries
 - **Faceting**: Easy creation of small multiples
@@ -302,9 +302,9 @@ After installation, verify Octave is working correctly with this example:
 - **Data Science**: End-to-end data analysis workflows
 - **Machine Learning**: Statistical learning models through packages like caret or tidymodels
 - **Biostatistics**: Analysis of biological and medical data
-- **Finance**: Time series analysis, risk modeling, portfolio optimization
+- **Finance**: Time series analysis, risk modeling, portfolio optimisation
 - **Social Sciences**: Survey analysis, demographic studies
-- **Data Visualization**: Creating publication-quality graphics
+- **Data Visualisation**: Creating publication-quality graphics
 - **Big Data**: Processing large datasets (with appropriate packages)
 - **Reproducible Research**: Creating reports with RMarkdown
 
@@ -335,13 +335,13 @@ processed_data <- data %>%
   group_by(category) %>%
   mutate(avg = mean(y))
 
-# Create visualization with ggplot2
+# Create visualisation with ggplot2
 ggplot(processed_data, aes(x = x, y = y, color = category)) +
   geom_point(alpha = 0.7) +
   geom_smooth(method = "loess", se = TRUE) +
   geom_hline(aes(yintercept = avg, color = category), linetype = "dashed") +
   labs(
-    title = "Sample ggplot2 Visualization",
+    title = "Sample ggplot2 Visualisation",
     subtitle = "Demonstrating basic plotting with categories",
     x = "X Value",
     y = "Y Value",
@@ -351,4 +351,4 @@ ggplot(processed_data, aes(x = x, y = y, color = category)) +
   scale_color_brewer(palette = "Set1")
 ```
 
-This code should produce a scatter plot with trend lines and category-based coloring, demonstrating the integration of dplyr for data transformation and ggplot2 for visualization.
+This code should produce a scatter plot with trend lines and category-based coloring, demonstrating the integration of dplyr for data transformation and ggplot2 for visualisation.
